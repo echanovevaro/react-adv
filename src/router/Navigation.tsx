@@ -1,8 +1,4 @@
-import {
-	BrowserRouter,
-	Navigate,
-	Router,
-} from 'react-router-dom';
+import { BrowserRouter, Navigate } from 'react-router-dom';
 import { Suspense } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import { routes } from './routes';
