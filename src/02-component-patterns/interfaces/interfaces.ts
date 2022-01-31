@@ -21,3 +21,12 @@ export interface PropsProductCardHOC {
 	Image: (Props: ProductImageProps) => JSX.Element;
 	Title: (Props: ProductTitleProps) => JSX.Element;
 }
+
+export interface OnChangeArgs {
+	product: Product;
+	count: number;
+}
+
+export interface ProductInCard extends Product {
+	count: number;
+}
