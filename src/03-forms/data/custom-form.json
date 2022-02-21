@@ -1,0 +1,41 @@
+[
+	{
+		"type": "input",
+		"name": "firstName",
+		"placeholder": "Alvaro",
+		"label": "First Name",
+		"value": "",
+		"validations": [{ "type": "required" }]
+	},
+	{
+		"type": "input",
+		"name": "LastName",
+		"placeholder": "Riaño",
+		"label": "Last Name",
+		"value": ""
+	},
+	{
+		"type": "email",
+		"name": "email",
+		"placeholder": "roberto@cabrera.com",
+		"label": "Correo Electronico",
+		"value": "",
+		"validations": [
+			{ "type": "required" },
+			{ "type": "email" }
+		]
+	},
+	{
+		"type": "select",
+		"name": "colores",
+		"placeholder": "Colores",
+		"label": "Correo Electronico",
+		"value": "",
+		"options": [
+			{ "id": 1, "label": "Rojo" },
+			{ "id": 2, "label": "Verde" },
+			{ "id": 3, "label": "Azul" }
+		],
+		"validations": [{ "type": "required" }]
+	}
+]
